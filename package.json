@@ -206,7 +206,7 @@
     "tailwind": "^4.0.0"
   },
   "scripts": {
-    "build-css": "npx tailwindcss build -i src/input.css -o public/styles.css --watch"
+    "build-css": "npx tailwindcss build -i src/input.css -o styles.css --watch"
   },
   "keywords": [],
   "author": "",
