@@ -9,7 +9,7 @@
 </head>
 <body class="min-h-screen bg-gradient-to-r from-slate-900 to-slate-800 font-mono font-light">
 	<!-- Navigation bar -->
-	<nav role="navigation" class=" bg-gradient-to-r from-slate-900 to-slate-800 px-2 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0 border-b border-gray-600">
+	<nav role="navigation" class=" bg-gradient-to-r from-slate-900 to-slate-800 px-2 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0">
 		<div class="container flex flex-wrap items-center justify-between mx-auto">
 			<div class="flex md:order-2">
 				<a href="https://github.com/Danielmdc94" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">My GitHub
@@ -22,34 +22,34 @@
 			<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
 			<ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-16 md:mt-0 md:text-sm md:font-medium md:border-0 border-gray-400">
 				<li>
-					<a href="index.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+					<a href="#home" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
 				</li>
 				<li>
-					<a href="index.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+					<a href="#about" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
 				</li>
 				<li>
-					<a href="index.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Portfolio</a>
+					<a href="#portfolio" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Portfolio</a>
 				</li>
 				<li>
-					<a href="index.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+					<a href="#contact" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
 				</li>
 			</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- Parallax header -->
-	<header class="h-screen mb-12 bg-fixed bg-center bg-cover" 
+	<section id="home" class="items-center h-screen bg-fixed bg-center bg-cover"
 	style="background-image: url('./images/doom-nukem.png');">
-  		<div class="flex h-screen items-center justify-center p-5 text-6xl text-white">
+  		<div class="flex items-end h-1/2 mt-16 justify-center p-5 text-6xl text-white">
     		Daniel Palacio
-			<div class="flex items-start justify-center p-5 text-xl text-white">
-				Game Developer
-			</div>
 		</div>
-	</header>
+		<div class="flex items-start justify-center p-5 text-2xl text-white">
+			Game Developer
+		</div>
+	</section>
 	<!-- About Me Under Contruction -->
-	<section class="text-white p-10">
-		<h1 class="flex justify-center items-center text-center font-bold lg:text-6xl sm:text-4xl text-2xl mb-10">About Me</h1>
+	<section id="about" class="text-white px-16 py-20 mb-10">
+		<h1 class="flex justify-center items-center text-center lg:text-6xl sm:text-4xl text-2xl mb-10">About Me</h1>
 		<div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -62,8 +62,8 @@
  		<div class="text-2xl text-white"></div>
 	</section>
 	<!-- Portfolio Under Contruction -->
-	<section class="text-white p-10">
-		<h1 class="flex justify-center items-center text-center font-bold lg:text-6xl sm:text-4xl text-2xl mb-10">Portfolio</h1>
+	<section id="portfolio" class="text-white px-16 py-20 mb-10">
+		<h1 class="flex justify-center items-center text-center lg:text-6xl sm:text-4xl text-2xl mb-10">Portfolio</h1>
 		<div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -75,9 +75,9 @@
 	style="background-image: url('./images/doom-nukem.png');">
 		 <div class="text-2xl text-white"></div>
 	</section>
-	<!-- Under Contruction -->
-	<section class="text-white p-10">
-		<h1 class="flex justify-center items-center text-center font-bold lg:text-6xl sm:text-4xl text-2xl mb-10">Contact Me</h1>
+	<!-- Contact me Under Contruction -->
+	<section id="contact" class="text-white px-16 py-20 mb-10">
+		<h1 class="flex justify-center items-center text-center lg:text-6xl sm:text-4xl text-2xl mb-10">Contact Me</h1>
 		<div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
